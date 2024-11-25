@@ -8,15 +8,7 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
-
-
-
-
-
-
-
     xrdb -merge $sysresources
-
 fi
 
 if [ -f $sysmodmap ]; then
@@ -24,15 +16,7 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
-
-
-
-
-
-
-
     xrdb -merge "$userresources"
-
 fi
 
 if [ -f "$usermodmap" ]; then
@@ -57,7 +41,7 @@ fi
 sudo modprobe -q snd-pcm-oss &
 amixer -q sset Master 100% &
 slstatus &
+#dwmblocks
 bgs /home/mia/Images/Wallpapers/map-of-the-medecine.jpg &
 dwm
 
-udiskie &
