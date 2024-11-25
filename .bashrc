@@ -102,18 +102,18 @@ alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 # git
-alias addup='git add -u'
-alias addall='git add .'
-alias branch='git branch'
-alias checkout='git checkout'
-alias clone='git clone'
-alias commit='git commit -m'
-alias fetch='git fetch'
-alias pull='git pull origin'
-alias push='git push origin'
-alias stat='git status'  # 'status' is protected name so using 'stat' instead
-alias tag='git tag'
-alias newtag='git tag -a'
+# alias addup='git add -u'
+# alias addall='git add .'
+# alias branch='git branch'
+# alias checkout='git checkout'
+# alias clone='git clone'
+# alias commit='git commit -m'
+# alias fetch='git fetch'
+# alias pull='git pull origin'
+# alias push='git push origin'
+# alias stat='git status'  # 'status' is protected name so using 'stat' instead
+# alias tag='git tag'
+# alias newtag='git tag -a'
 
 # ps
 alias psa="ps auxf"
@@ -124,10 +124,10 @@ alias pscpu='ps auxf | sort -nr -k 3'
 # pacman and pikaur
 alias pacsyu='sudo pacman -Syu'                  # update only standard pkgs
 alias pacsyyu='sudo pacman -Syyu'                # Refresh pkglist & update standard pkgs
-alias piksua='pikaur -Sua --noconfirm'             # update only AUR pkgs (paru)
-alias piksyu='pikaur -Syu --noconfirm'             # update standard pkgs and AUR pkgs (paru)
+alias piksua='pikaur -Sua'             # update only AUR pkgs (paru)
+alias piksyu='pikaur -Syu' # update standard pkgs and AUR pkgs (paru)
 alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
-alias orphan='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages (DANGEROUS!)
+# alias orphan='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages (DANGEROUS!)
 
 # get fastest mirrors
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
@@ -141,10 +141,11 @@ alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Log out and log back in for ch
 alias tofish="sudo chsh $USER -s /bin/fish && echo 'Log out and log back in for change to take effect.'"
 
 # other
-alias em="/usr/bin/emacs -nw" # Terminal version of Emacs
+alias em="/usr/bin/emacs -nw"  # Terminal version of Emacs
 alias df='df -h'               # human-readable sizes
 alias free='free -m'           # show sizes in MB
 alias grep='grep --color=auto' # colorize output (good for log files)
+#alias pip='echo "Are you sure pipx doesn't work?" && pip'               # to avoid breaking package system
 
 
 ### IDK what is that
