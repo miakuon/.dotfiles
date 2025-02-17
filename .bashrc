@@ -30,6 +30,10 @@ if [ -d "$HOME/Documents/Code/screeps/node_modules/grunt-cli/bin" ] ;
   then PATH="$HOME/Documents/Code/screeps/node_modules/grunt-cli/bin:$PATH"
 fi
 
+if [ -d "$HOME/Documents/Code/tscreeps/node_modules/rollup/dist/bin/" ] ;
+  then PATH="$HOME/Documents/Code/tscreeps/node_modules/rollup/dist/bin/:$PATH"
+fi
+
 ### EMACS
 if [ -d "$HOME/.config/emacs/bin/" ] ;
   then PATH="$HOME/.config/emacs/bin/:$PATH"
@@ -122,12 +126,12 @@ alias psmem='ps auxf | sort -nr -k 4'
 alias pscpu='ps auxf | sort -nr -k 3'
 
 # pacman and pikaur
-alias pacsyu='sudo pacman -Syu'                  # update only standard pkgs
-alias pacsyyu='sudo pacman -Syyu'                # Refresh pkglist & update standard pkgs
-alias piksua='pikaur -Sua'             # update only AUR pkgs (paru)
-alias piksyu='pikaur -Syu' # update standard pkgs and AUR pkgs (paru)
-alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
-# alias orphan='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages (DANGEROUS!)
+alias pacsyu='sudo pacman -Syu'                            # update only standard pkgs
+alias pacsyyu='sudo pacman -Syyu'                          # Refresh pkglist & update standard pkgs
+alias piksua='pikaur -Sua --ignore dwm --ignore dmenu-git' # update only AUR pkgs
+alias piksyu='pikaur -Syu --ignore dwm --ignore dmenu-git' # update standard pkgs and AUR pkgs
+alias pacunlock='sudo rm /var/lib/pacman/db.lck'           # remove pacman lock
+# alias orphan='sudo pacman -Rns $(pacman -Qtdq)'          # remove orphaned packages (DANGEROUS!)
 
 # get fastest mirrors
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
