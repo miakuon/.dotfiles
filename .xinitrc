@@ -39,9 +39,9 @@ fi
 #exec xterm -geometry 80x66+0+0 -name login
 
 sudo modprobe -q snd-pcm-oss &
-amixer -q sset Master 100% &
+amixer -q sset Master 0% &
 slstatus &
 #dwmblocks
-bgs /home/mia/Images/Wallpapers/map-of-the-medecine.jpg &
+bgs /home/mia/Pictures/Wallpapers/map-of-copmuter-science.png &
 dwm
 
