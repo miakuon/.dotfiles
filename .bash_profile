@@ -6,6 +6,4 @@
 
 echo "Starting udiskie..."
 udiskie &
-echo "Starting spoof-dpi"
-spoof-dpi &
 startx
