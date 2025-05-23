@@ -52,7 +52,7 @@ if [ -z "$EMACSDIR" ] ; then
 fi
 
 if [ -z "$DOOMDIR" ] ; then
-  export DOOMDIR="$HOME/.config/doom"
+  export DOOMDIR="$HOME/.dotfiles/.config/doom"
 fi
 
 ### OTHER ENVIRONMENT VARIABLES
