@@ -1,0 +1,54 @@
+﻿[23.11.2024 10:18:36] [INFO] -> OS Version: Linux
+[23.11.2024 10:18:36] [INFO] -> Mono Version: 
+[23.11.2024 10:18:36] [INFO] -> Desktop Type: None
+[23.11.2024 10:18:36] [INFO] -> CLR Version: v4.0.30319
+[23.11.2024 10:18:36] [INFO] -> GK Version: 3.7.0.0
+[23.11.2024 10:18:36] [INFO] -> Plugins load path: /usr/lib/gedkeeper/plugins/
+[23.11.2024 10:18:37] [INFO] -> Options load path: /home/mia/.config/GEDKeeper3e/GEDKeeper2.ini
+[23.11.2024 10:19:15] [ERROR] -> UpdateMan.CheckUpdate(): COM Interop is not supported on this platform.
+    Exception data:
+    StackTrace:
+       at System.Threading.Thread.SetApartmentStateUnchecked(ApartmentState state, Boolean throwOnError)
+           at System.Threading.Thread.SetApartmentState(ApartmentState state, Boolean throwOnError)
+           at System.Threading.Thread.SetApartmentState(ApartmentState state)
+           at GKCore.UpdateMan.CheckUpdate()
+[23.11.2024 10:28:32] [INFO] -> ShortDatePattern: dd.mm.yyyy
+[23.11.2024 10:28:32] [INFO] -> RegionalDatePattern: dd/mm/yyyy
+[23.11.2024 10:42:24] [ERROR] -> BaseController.AddFather(): fail, because family already has father
+[23.11.2024 10:46:35] [ERROR] -> BaseController.AddFather(): fail, because family already has father
+[23.11.2024 11:55:35] [INFO] -> OS Version: Linux
+[23.11.2024 11:55:35] [INFO] -> Mono Version: 
+[23.11.2024 11:55:35] [INFO] -> Desktop Type: None
+[23.11.2024 11:55:35] [INFO] -> CLR Version: v4.0.30319
+[23.11.2024 11:55:35] [INFO] -> GK Version: 3.7.0.0
+[23.11.2024 11:55:36] [INFO] -> Plugins load path: /usr/lib/gedkeeper/plugins/
+[23.11.2024 11:55:37] [INFO] -> Options load path: /home/mia/.config/GEDKeeper3e/GEDKeeper2.ini
+[23.11.2024 11:55:54] [ERROR] -> UpdateMan.CheckUpdate(): COM Interop is not supported on this platform.
+    Exception data:
+    StackTrace:
+       at System.Threading.Thread.SetApartmentStateUnchecked(ApartmentState state, Boolean throwOnError)
+           at System.Threading.Thread.SetApartmentState(ApartmentState state, Boolean throwOnError)
+           at System.Threading.Thread.SetApartmentState(ApartmentState state)
+           at GKCore.UpdateMan.CheckUpdate()
+[23.11.2024 12:12:06] [INFO] -> ShortDatePattern: dd.mm.yyyy
+[23.11.2024 12:12:06] [INFO] -> RegionalDatePattern: dd/mm/yyyy
+[23.11.2024 12:37:00] [ERROR] -> EventEditController.Accept(): Exception of type 'System.Exception' was thrown.
+    Exception data:
+    StackTrace:
+       at GKCore.Controllers.EventEditDlgController.Accept()
+[23.11.2024 14:39:15] [INFO] -> OS Version: Linux
+[23.11.2024 14:39:15] [INFO] -> Mono Version: 
+[23.11.2024 14:39:15] [INFO] -> Desktop Type: None
+[23.11.2024 14:39:15] [INFO] -> CLR Version: v4.0.30319
+[23.11.2024 14:39:15] [INFO] -> GK Version: 3.7.0.0
+[23.11.2024 14:39:15] [INFO] -> Plugins load path: /usr/lib/gedkeeper/plugins/
+[23.11.2024 14:39:16] [INFO] -> Options load path: /home/mia/.config/GEDKeeper3e/GEDKeeper2.ini
+[23.11.2024 14:39:29] [ERROR] -> UpdateMan.CheckUpdate(): COM Interop is not supported on this platform.
+    Exception data:
+    StackTrace:
+       at System.Threading.Thread.SetApartmentStateUnchecked(ApartmentState state, Boolean throwOnError)
+           at System.Threading.Thread.SetApartmentState(ApartmentState state, Boolean throwOnError)
+           at System.Threading.Thread.SetApartmentState(ApartmentState state)
+           at GKCore.UpdateMan.CheckUpdate()
+[23.11.2024 14:43:11] [INFO] -> ShortDatePattern: dd.mm.yyyy
+[23.11.2024 14:43:11] [INFO] -> RegionalDatePattern: dd/mm/yyyy

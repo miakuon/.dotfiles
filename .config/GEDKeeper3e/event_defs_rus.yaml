@@ -1,0 +1,290 @@
+- DisplayName: Событие
+  Tag: EVEN
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Рождение
+  Tag: BIRT
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Усыновление
+  Tag: ADOP
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Крещение (ребенка)
+  Tag: CHR
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Получение ученой степени
+  Tag: GRAD
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Уход на пенсию
+  Tag: RETI
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Натурализация
+  Tag: NATU
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Эмиграция
+  Tag: EMIG
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Иммиграция
+  Tag: IMMI
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Перепись
+  Tag: CENS
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Завещание
+  Tag: WILL
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Утверждение завещания
+  Tag: PROB
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Смерть
+  Tag: DEAT
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Похороны
+  Tag: BURI
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Кремация
+  Tag: CREM
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Факт
+  Tag: FACT
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Вероисповедание
+  Tag: RELI
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Национальность
+  Tag: NATI
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Местожительство
+  Tag: RESI
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Физическое описание
+  Tag: DSCR
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Идентификационный номер
+  Tag: IDNO
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Код социального страхования
+  Tag: SSN
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Количество детей
+  Tag: NCHI
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Количество браков
+  Tag: NMR
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Образование
+  Tag: EDUC
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Профессия
+  Tag: OCCU
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Социальное положение
+  Tag: CAST
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Собственность
+  Tag: PROP
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Титул
+  Tag: TITL
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM fact tag
+- DisplayName: Путешествие
+  Tag: _TRAVEL
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Хобби
+  Tag: _HOBBY
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Награда
+  Tag: _AWARD
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Военная служба
+  Tag: _MILI
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Призван в ВС
+  Tag: _MILI_IND
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Уволен из ВС
+  Tag: _MILI_DIS
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Звание в ВС
+  Tag: _MILI_RANK
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Группа крови
+  Tag: _BGRO
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Цвет волос
+  Tag: _HAIR
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Цвет глаз
+  Tag: _EYES
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Гаплогруппа mtДНК
+  Tag: _MDNA
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Гаплогруппа Y-ДНК
+  Tag: _YDNA
+  Type: ''
+  Enabled: true
+  Description: predefined GEDKeeper fact tag
+- DisplayName: Крещение (младенца)
+  Tag: BAPM
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Бар-мицва
+  Tag: BARM
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Бат-мицва
+  Tag: BASM
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Благословение
+  Tag: BLES
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Крещение (взрослого)
+  Tag: CHRA
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Миропомазание
+  Tag: CONF
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Первое причастие
+  Tag: FCOM
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Рукоположение
+  Tag: ORDN
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Помолвка
+  Tag: ENGA
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Бракосочетание
+  Tag: MARR
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Публичное объявление о бракосочетании
+  Tag: MARB
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Заключение брачного контракта
+  Tag: MARC
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Получение разрешения на брак
+  Tag: MARL
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Заключение брачного соглашения
+  Tag: MARS
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Аннулирование брака
+  Tag: ANUL
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Подача заявления о разводе
+  Tag: DIVF
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
+- DisplayName: Развод
+  Tag: DIV
+  Type: ''
+  Enabled: true
+  Description: predefined GEDCOM event tag
