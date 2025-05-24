@@ -1,0 +1,7 @@
+[Unit]
+Description=Auto Commit Grimuar
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/mia/Гримуар/Tools/Scripts/auto-commit.sh

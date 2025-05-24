@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Auto Commit Notes Script Every 15 Minutes
+
+[Timer]
+OnBootSec=5m
+OnUnitActiveSec=15m
+Unit=auto-commit-grimuar.service
+
+[Install]
+WantedBy=timers.target
