@@ -4,9 +4,9 @@ export ZSH="$HOME/.dotfiles/.oh-my-zsh"
 ## THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-# ZSH_THEME="mortalscumbag"
+ZSH_THEME="mortalscumbag"
 # ZSH_THEME="sorin"
-ZSH_THEME="steeef"
+# ZSH_THEME="steeef"
 # ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment the following line if you want to change the command execution time
