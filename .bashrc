@@ -149,6 +149,7 @@ alias em="/usr/bin/emacs -nw"  # Terminal version of Emacs
 alias df='df -h'               # human-readable sizes
 alias free='free -m'           # show sizes in MB
 alias grep='grep --color=auto' # colorize output (good for log files)
+alias xetest='Xephyr -br -ac -noreset -screen 1080x720 :1 & sleep 1 && DISPLAY=:1' # WM testing in WM
 #alias pip='echo "Are you sure pipx doesn't work?" && pip'               # to avoid breaking package system
 
 

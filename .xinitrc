@@ -38,10 +38,13 @@ fi
 #xterm -geometry 80x20+494-0 &
 #exec xterm -geometry 80x66+0+0 -name login
 
+#polkit-agent
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 sudo modprobe -q snd-pcm-oss &
 amixer -q sset Master 0% &
 slstatus &
-#dwmblocks
-bgs /home/mia/Pictures/Wallpapers/map-of-copmuter-science.png &
+#dwmblocks &
+bgs /home/mia/Pictures/Wallpapers/2160x1440-map-of-copmuter-science.png
 dwm
 
