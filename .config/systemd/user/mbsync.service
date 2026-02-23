@@ -1,0 +1,7 @@
+[Unit]
+Description=Run mbsync to sync email
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/mbsync mia-gmail
