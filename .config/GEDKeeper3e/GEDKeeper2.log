@@ -52,3 +52,128 @@
            at GKCore.UpdateMan.CheckUpdate()
 [23.11.2024 14:43:11] [INFO] -> ShortDatePattern: dd.mm.yyyy
 [23.11.2024 14:43:11] [INFO] -> RegionalDatePattern: dd/mm/yyyy
+[03.03.2026 06:08:36] [INFO] -> OS Version: Linux
+[03.03.2026 06:08:36] [INFO] -> Desktop Type: None
+[03.03.2026 06:08:36] [INFO] -> CLR Version: v4.0.30319
+[03.03.2026 06:08:36] [INFO] -> GK Version: 3.13.0.0
+[03.03.2026 06:08:36] [INFO] -> Plugins load path: /usr/lib/gedkeeper/plugins/
+[03.03.2026 06:08:37] [INFO] -> Options load path: /home/mia/.config/GEDKeeper3e/GEDKeeper2.ini
+[03.03.2026 06:08:53] [INFO] -> CPU Cores: 4
+[03.03.2026 06:08:53] [INFO] -> CPU Frequency: 0 MHz
+[03.03.2026 06:08:53] [INFO] -> Memory: 0,00 GB
+[03.03.2026 06:08:53] [INFO] -> Process size: 227 MB
+[10.03.2026 01:19:10] [INFO] -> OS Version: Linux
+[10.03.2026 01:19:10] [INFO] -> Desktop Type: None
+[10.03.2026 01:19:10] [INFO] -> CLR Version: v4.0.30319
+[10.03.2026 01:19:10] [INFO] -> GK Version: 3.13.0.0
+[10.03.2026 01:19:11] [INFO] -> Plugins load path: /usr/lib/gedkeeper/plugins/
+[10.03.2026 01:19:12] [INFO] -> Options load path: /home/mia/.config/GEDKeeper3e/GEDKeeper2.ini
+[10.03.2026 01:19:17] [INFO] -> CPU Cores: 4
+[10.03.2026 01:19:17] [INFO] -> CPU Frequency: 0 MHz
+[10.03.2026 01:19:17] [INFO] -> Memory: 0,00 GB
+[10.03.2026 01:19:17] [INFO] -> Process size: 218 MB
+[10.03.2026 01:20:54] [INFO] -> OS Version: Linux
+[10.03.2026 01:20:54] [INFO] -> Desktop Type: None
+[10.03.2026 01:20:54] [INFO] -> CLR Version: v4.0.30319
+[10.03.2026 01:20:54] [INFO] -> GK Version: 3.13.0.0
+[10.03.2026 01:20:54] [INFO] -> Plugins load path: /usr/lib/gedkeeper/plugins/
+[10.03.2026 01:20:54] [INFO] -> Options load path: /home/mia/.config/GEDKeeper3e/GEDKeeper2.ini
+[10.03.2026 01:20:58] [INFO] -> CPU Cores: 4
+[10.03.2026 01:20:58] [INFO] -> CPU Frequency: 0 MHz
+[10.03.2026 01:20:58] [INFO] -> Memory: 0,00 GB
+[10.03.2026 01:20:58] [INFO] -> Process size: 219 MB
+[10.03.2026 01:21:21] [ERROR] -> BaseContext.CheckFileVersion(): Access to the path '/home/mia/Documents/Mia Kuon's family tree_prev_format.ged' is denied.
+    Exception data:
+    StackTrace:
+       at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+           at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+           at System.IO.FileSystem.CopyFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+           at GKCore.BaseContext.CheckFileVersion(String fileName)Отказано в доступе
+        Exception data:
+        StackTrace:
+        
+[10.03.2026 01:22:31] [INFO] -> Kinship determination culture file `/usr/lib/gedkeeper/externals/kinships.yaml` not found.
+[10.03.2026 01:23:05] [INFO] -> Kinship determination culture file `/usr/lib/gedkeeper/externals/kinships.yaml` not found.
+[10.03.2026 01:25:36] [ERROR] -> Unhandled exception (IsTerminating=False):: Exception has been thrown by the target of an invocation.
+    Exception data:
+    StackTrace:
+       at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+           at System.Delegate.DynamicInvokeImpl(Object[] args)
+           at GLib.SignalClosure.MarshalCallback(IntPtr raw_closure, IntPtr return_val, UInt32 n_param_vals, IntPtr param_values, IntPtr invocation_hint, IntPtr marshal_data)Object reference not set to an instance of an object.
+        Exception data:
+        StackTrace:
+           at Eto.GtkSharp.Forms.GtkWindow`3.GrabFocus()
+               at Eto.GtkSharp.Forms.GtkControl`3.Focus()
+               at Eto.Forms.Control.Focus()
+               at GKUI.Forms.CommonForm.Activate()
+               at GKUI.Forms.MapsViewerWin.OnLoad(EventArgs e)
+               at Eto.Forms.Form.Show()
+               at GKUI.Forms.CommonWindow.Show(Boolean showInTaskbar)
+               at GKCore.AppHost.ShowWindow(IWindow window)
+               at GKCore.Controllers.BaseController.ShowMap(IBaseWindow baseWin, List`1 fixedPoints)
+               at GKCore.Controllers.BaseWinController.ShowMap()
+               at GKUI.Forms.BaseWinSDI.miMap_Click(Object sender, EventArgs e)
+               at Eto.Forms.MenuItem.OnClick(EventArgs e)
+               at Eto.Forms.MenuItem.Callback.OnClick(MenuItem widget, EventArgs e)
+               at Eto.GtkSharp.Forms.Menu.ButtonMenuItemHandler`2.ButtonMenuItemConnector.HandleActivated(Object sender, EventArgs e)
+               at InvokeStub_EventHandler.Invoke(Object, Span`1)
+               at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[10.03.2026 01:25:40] [ERROR] -> Unhandled exception (IsTerminating=False):: Exception has been thrown by the target of an invocation.
+    Exception data:
+    StackTrace:
+       at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+           at System.Delegate.DynamicInvokeImpl(Object[] args)
+           at GLib.SignalClosure.MarshalCallback(IntPtr raw_closure, IntPtr return_val, UInt32 n_param_vals, IntPtr param_values, IntPtr invocation_hint, IntPtr marshal_data)Object reference not set to an instance of an object.
+        Exception data:
+        StackTrace:
+           at Eto.GtkSharp.Forms.GtkWindow`3.GrabFocus()
+               at Eto.GtkSharp.Forms.GtkControl`3.Focus()
+               at Eto.Forms.Control.Focus()
+               at GKUI.Forms.CommonForm.Activate()
+               at GKUI.Forms.MapsViewerWin.OnLoad(EventArgs e)
+               at Eto.Forms.Form.Show()
+               at GKUI.Forms.CommonWindow.Show(Boolean showInTaskbar)
+               at GKCore.AppHost.ShowWindow(IWindow window)
+               at GKCore.Controllers.BaseController.ShowMap(IBaseWindow baseWin, List`1 fixedPoints)
+               at GKCore.Controllers.BaseWinController.ShowMap()
+               at GKUI.Forms.BaseWinSDI.miMap_Click(Object sender, EventArgs e)
+               at Eto.Forms.MenuItem.OnClick(EventArgs e)
+               at Eto.Forms.MenuItem.Callback.OnClick(MenuItem widget, EventArgs e)
+               at Eto.GtkSharp.Forms.Menu.ButtonMenuItemHandler`2.ButtonMenuItemConnector.HandleActivated(Object sender, EventArgs e)
+               at InvokeStub_EventHandler.Invoke(Object, Span`1)
+               at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[10.03.2026 01:25:50] [ERROR] -> Unhandled exception (IsTerminating=False):: Exception has been thrown by the target of an invocation.
+    Exception data:
+    StackTrace:
+       at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+           at System.Delegate.DynamicInvokeImpl(Object[] args)
+           at GLib.SignalClosure.MarshalCallback(IntPtr raw_closure, IntPtr return_val, UInt32 n_param_vals, IntPtr param_values, IntPtr invocation_hint, IntPtr marshal_data)Object reference not set to an instance of an object.
+        Exception data:
+        StackTrace:
+           at Eto.GtkSharp.Forms.GtkWindow`3.GrabFocus()
+               at Eto.GtkSharp.Forms.GtkControl`3.Focus()
+               at Eto.Forms.Control.Focus()
+               at GKUI.Forms.CommonForm.Activate()
+               at GKUI.Forms.MapsViewerWin.OnLoad(EventArgs e)
+               at Eto.Forms.Form.Show()
+               at GKUI.Forms.CommonWindow.Show(Boolean showInTaskbar)
+               at GKCore.AppHost.ShowWindow(IWindow window)
+               at GKCore.Controllers.BaseController.ShowMap(IBaseWindow baseWin, List`1 fixedPoints)
+               at GKCore.Controllers.BaseWinController.ShowMap()
+               at GKUI.Forms.BaseWinSDI.miMap_Click(Object sender, EventArgs e)
+               at Eto.Forms.MenuItem.OnClick(EventArgs e)
+               at Eto.Forms.MenuItem.Callback.OnClick(MenuItem widget, EventArgs e)
+               at Eto.GtkSharp.Forms.Menu.ButtonMenuItemHandler`2.ButtonMenuItemConnector.HandleActivated(Object sender, EventArgs e)
+               at InvokeStub_EventHandler.Invoke(Object, Span`1)
+               at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[10.03.2026 01:26:04] [INFO] -> Kinship determination culture file `/usr/lib/gedkeeper/externals/kinships.yaml` not found.
+[10.03.2026 16:31:49] [INFO] -> OS Version: Linux
+[10.03.2026 16:31:49] [INFO] -> Desktop Type: None
+[10.03.2026 16:31:49] [INFO] -> CLR Version: v4.0.30319
+[10.03.2026 16:31:49] [INFO] -> GK Version: 3.13.0.0
+[10.03.2026 16:31:49] [INFO] -> Plugins load path: /usr/lib/gedkeeper/plugins/
+[10.03.2026 16:31:49] [INFO] -> Options load path: /home/mia/.config/GEDKeeper3e/GEDKeeper2.ini
+[10.03.2026 16:31:57] [INFO] -> CPU Cores: 4
+[10.03.2026 16:31:57] [INFO] -> CPU Frequency: 0 MHz
+[10.03.2026 16:31:57] [INFO] -> Memory: 0,00 GB
+[10.03.2026 16:31:57] [INFO] -> Process size: 217 MB
