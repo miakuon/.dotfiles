@@ -1,8 +1,13 @@
 [Unit]
 Description=Dunst Notification Daemon
+After=graphical-session.target
 
 [Service]
+Type=simple
 ExecStart=/usr/bin/dunst
+Restart=on-failure
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=%h/.Xauthority
 
 [Install]
 WantedBy=default.target
