@@ -1,5 +1,13 @@
-! The 'HiDPI' section applies if your display has 4K resolution
-! --------- HiDPI ---------
+! ============================================================
+!  ~/.Xresources
+!  Настройки шрифтов, терминалов (XTerm), цветовая схема
+! ============================================================
+
+
+! ============================================================
+!  HiDPI — раскомментировать если экран 4K
+! ============================================================
+
 Xft.dpi:        180
 Xft.autohint:   0
 Xft.lcdfilter:  lcddefault
@@ -9,110 +17,83 @@ Xft.antialias:  1
 Xft.rgba:       rgb
 
 
-! ----------------- Xterm (default) -------------
-!XTerm*faceName:           DejaVu Sans Mono:size=12
-! XTerm*faceName: xft:Mononoki Nerd Font, \
-!                 xft:JoyPixels:size=12, \
-!                 xft:Monospace:style=Medium:size=12
-XTerm*faceName:            Adwaita:size=12
+! ============================================================
+!  XTerm
+! ============================================================
+
+! -- Шрифт --
+! Варианты (раскомментировать нужный):
+!XTerm*faceName: DejaVu Sans Mono:size=12
+!XTerm*faceName: xft:Mononoki Nerd Font, \
+!                xft:JoyPixels:size=12,  \
+!                xft:Monospace:style=Medium:size=12
+XTerm*faceName:   Adwaita:size=12
+XTerm*faceSize:   11
 XTerm*renderFont: true
-XTerm*faceSize: 11
-XTerm*dynamicColors:      true
-XTerm*utf8:               2
-XTerm*savelines: 16384
-XTerm*locale: true
 
-XTerm*scrollKey:          true
-XTerm*scrollBar:          false
-XTerm*scrollBar.width:    8
-XTerm*rightScrolBar:      true
+! -- Поведение --
+XTerm*loginShell:        true   ! каждый шелл — логин-шелл (подхватывает все переменные окружения)
+XTerm*dynamicColors:     true
+XTerm*utf8:              2
+XTerm*locale:            true
+XTerm*saveLines:         16384
 
-XTerm*toolBar:            false
-XTerm*selectToClipboard:  true
-XTerm*reverseVideo:       true
+! -- Прокрутка --
+XTerm*scrollKey:         true   ! прокрутка при нажатии клавиш
+XTerm*scrollBar:         false
+XTerm*scrollBar.width:   8
+XTerm*rightScrollBar:    true   ! было опечатка: rightScrolBar → rightScrollBar
 
-XTerm*translations: #override \n\
-    Ctrl <Key>-: smaller-vt-font() \n\
-    Ctrl <Key>=: larger-vt-font() \n\
+! -- Интерфейс --
+XTerm*toolBar:           false
+XTerm*selectToClipboard: true
+XTerm*reverseVideo:      false
+
+! -- Горячие клавиши --
+XTerm*translations: #override         \n\
+    Ctrl <Key>-: smaller-vt-font()    \n\
+    Ctrl <Key>=: larger-vt-font()     \n\
     Ctrl <Key>V: insert-selection(CLIPBOARD) \n
 
-! double-click to select whole URLs :D
+! -- Выделение двойным кликом: захватывает URL целиком --
 XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
 
-! Every shell is a login shell by default (for inclusion of all necessary environment variables)
-XTerm*loginshell: true
+! ============================================================
+!  Цветовая схема — Catppuccin Mocha
+! ============================================================
 
-URxvt*imLocale: ru_RU.UTF-8
-URxvt*termName: rxvt-unicode-256color
-URxvt*buffered: false
-URxvt.intensityStyles: false
-URxvt.font: xft:Mononoki Nerd Font:size=12, \
-            xft:JoyPixels:size=12, \
-            xft:Monospace:style=Medium:size=12
-URxvt.saveLines: 2000
-URxvt.scrollBar: false
-URxvt.cursorColor: white
+XTerm*foreground:  #cdd6f4
+XTerm*background:  #1e1e2e
+XTerm*cursorColor: #f5e0dc
 
-!! Extensions
-URxvt.perl-ext-common: default,matcher,resize-font,url-select,keyboard-select,clipboard
-!URxvt.colorUL: #4682B4
-!! url-select
-URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-select.launcher: urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
-URxvt.url-select.underline: true
-!! keyboard-select:
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-!! resize-font
-URxvt.keysym.C-k:   font-size:increase
-URxvt.keysym.C-j:   font-size:decrease
-!! Matcher
-URxvt.url-launcher:	urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
-URxvt.matcher.button: 1
-!!clipboard
-URxvt.keysym.M-c: perl:clipboard:copy
-URxvt.keysym.M-v: perl:clipboard:paste
-URxvt*depth: 32
+! Чёрный (Surface1)
+XTerm*color0:  #45475a
+XTerm*color8:  #585b70
 
-! COLORS FOR SXIV
-!Sxiv.foreground:   #bbc2cf
-!Sxiv.background:   #282c34
-!Sxiv.font: Ubuntu:style=bold:size=11
+! Красный
+XTerm*color1:  #f38ba8
+XTerm*color9:  #f38ba8
 
+! Зелёный
+XTerm*color2:  #a6e3a1
+XTerm*color10: #a6e3a1
 
-! FOR ALL OTHER PROGRAMS USE XRESOURCES
-! This includes xterm and urxvt
-!*.foreground:   #bbc2cf
-!*.background:   #282c34
-!*.cursorColor:  #bbc2cf
+! Жёлтый
+XTerm*color3:  #f9e2af
+XTerm*color11: #f9e2af
 
-! black
-!*.color0:       #1c1f24
-!*.color8:       #5b6268
+! Синий
+XTerm*color4:  #89b4fa
+XTerm*color12: #89b4fa
 
-! red
-!*.color1:       #ff6c6b
-!*.color9:       #da8548
+! Пурпурный (Pink)
+XTerm*color5:  #f5c2e7
+XTerm*color13: #f5c2e7
 
-! green
-!*.color2:       #98be65
-!*.color10:      #4db5bd
+! Голубой (Sky)
+XTerm*color6:  #89dceb
+XTerm*color14: #89dceb
 
-! yellow
-!*.color3:       #da8548
-!*.color11:      #ecbe7b
-
-! blue
-!*.color4:       #51afef
-!*.color12:      #3071db
-
-! magenta
-!*.color5:       #c678dd
-!*.color13:      #a9a1e1
-
-! cyan
-!*.color6:       #5699af
-!*.color14:      #46d9ff
-
-! white
-!*.color7:       #abb2bf
-!*.color15:      #dfdfdf
+! Белый (Subtext0)
+XTerm*color7:  #a6adc8
+XTerm*color15: #cdd6f4
