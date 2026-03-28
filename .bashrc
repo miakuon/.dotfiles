@@ -5,9 +5,9 @@
 
 alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ '
-PS1='\[\e[01;35m\]\W\[\e[m\] > '
-
 [ -r /home/mia/.byobu/prompt ] && . /home/mia/.byobu/prompt   #byobu-prompt#
+# PS1='$(byobu_prompt_runtime) --> $(byobu_prompt_status)\n\[\e[38;5;69m\]\u\[\e[00m\]@\[\e[38;5;214m\]\h\[\e[00m\]:\[\e[38;5;167m\]\w\[\e[00m\]$(byobu_prompt_git)$(byobu_prompt_symbol)'
+PS1='$(byobu_prompt_runtime) --> $(byobu_prompt_status)\[\e[$((COLUMNS - 7))G\]\[\e[38;5;245m\]$(date +%H:%M:%S)\[\e[00m\]\n\[\e[38;5;69m\]\u\[\e[00m\]@\[\e[38;5;214m\]\h\[\e[00m\]:\[\e[38;5;167m\]\w\[\e[00m\]$(byobu_prompt_git)$(byobu_prompt_symbol)'
 
 ### PATH
 if [ -d "$HOME/.bin" ] ;
