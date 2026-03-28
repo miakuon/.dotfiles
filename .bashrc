@@ -167,9 +167,9 @@ alias xetest='Xephyr -br -ac -noreset -screen 1080x720 :1 & sleep 1 && DISPLAY=:
 #alias pip='echo "Are you sure pipx doesn't work?" && pip'               # to avoid breaking package system
 
 
-### IDK what is that
+### NVM (java)
 source /usr/share/nvm/init-nvm.sh
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# SDKMAN
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
