@@ -75,6 +75,11 @@ fi
 #     export QT_STYLE_OVERRIDE=kvantum
 # fi
 
+export HISTSIZE=-1                                # Unlimited bash history
+export HISTFILESIZE=-1
+export HISTCONTROL=ignoredups:erasedups           # no duplicats
+# export PROMPT_COMMAND="history -a; history -n"  # frequent history saving
+
 #### DT config
 ### CHANGE TITLE OF TERMINALS
 case ${TERM} in
