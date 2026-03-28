@@ -68,6 +68,12 @@ fi
 if [ -z "$HISTTIMEFORMAT" ] ; then
     export HISTTIMEFORMAT='%F %T '
 fi
+if [ -z "$QT_QPA_PLATFORMTHEME" ] ; then
+    export QT_QPA_PLATFORMTHEME=qt5ct
+fi
+# if [ -z "$QT_STYLE_OVERRIDE" ] ; then
+#     export QT_STYLE_OVERRIDE=kvantum
+# fi
 
 #### DT config
 ### CHANGE TITLE OF TERMINALS
