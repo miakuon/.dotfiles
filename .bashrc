@@ -105,6 +105,10 @@ shopt -s checkwinsize # checks term size when bash regains control
 alias cd..='cd ..'
 alias cd...='cd ../..'
 
+# emacs
+alias em="/usr/bin/emacs -nw"  # Terminal version of Emacs
+alias ec="/usr/bin/emacsclient -c"  # Terminal version of Emacs
+
 # eza
 alias eza='eza -al --color=always --group-directories-first' # my preferred listing
 alias ezaa='eza -a --color=always --group-directories-first'  # all files and dirs
@@ -156,7 +160,6 @@ alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Log out and log back in for ch
 alias tofish="sudo chsh $USER -s /bin/fish && echo 'Log out and log back in for change to take effect.'"
 
 # other
-alias em="/usr/bin/emacs -nw"  # Terminal version of Emacs
 alias df='df -h'               # human-readable sizes
 alias free='free -m'           # show sizes in MB
 alias grep='grep --color=auto' # colorize output (good for log files)
