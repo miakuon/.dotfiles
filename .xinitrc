@@ -30,6 +30,7 @@ fi
 sudo modprobe -q snd-pcm-oss &
 amixer -q sset Master 0% &
 
+systemctl --user start dunst &
 dwmblocks & # slstatus &
 bgs /home/mia/Pictures/Wallpapers/2160x1440-map-of-copmuter-science.png
 dwm
