@@ -146,8 +146,8 @@ alias pscpu='ps auxf | sort -nr -k 3'
 # pacman and pikaur
 alias pacsyu='sudo pacman -Syu'                            # update only standard pkgs
 alias pacsyyu='sudo pacman -Syyu'                          # Refresh pkglist & update standard pkgs
-alias piksua='pikaur -Sua --ignore dwm --ignore dmenu-git' # update only AUR pkgs
-alias piksyu='pikaur -Syu --ignore dwm --ignore dmenu-git' # update standard pkgs and AUR pkgs
+alias piksua='pikaur -Sua --ignore dwm --ignore dmenu-git --ignore scidb-svn --ignore google-chrome' # update only AUR pkgs
+alias piksyu='pikaur -Syu --ignore dwm --ignore dmenu-git --ignore scidb-svn --ignore google-chrome' # update standard pkgs and AUR pkgs
 alias pacunlock='sudo rm /var/lib/pacman/db.lck'           # remove pacman lock
 # alias orphan='sudo pacman -Rns $(pacman -Qtdq)'          # remove orphaned packages (DANGEROUS!)
 
