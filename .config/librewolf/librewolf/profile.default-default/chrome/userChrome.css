@@ -1,0 +1,7 @@
+#TabsToolbar { display: none !important; }
+#sidebar-panel-header { display: none !important; }
+#sidebar-container { display: none !important; }
+#sidebar-box { padding-inline-start: 0px !important; padding-block-end: 0px !important}
+#sidebar-splitter { width: 1px !important; border-inline: 1px !important}
+
+* { border-radius: 0px !important; }

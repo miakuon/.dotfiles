@@ -1,0 +1,35 @@
+{
+  "timeStamp": 1792956299602,
+  "version": "1.75.0",
+  "userSettings": {
+    "uiTheme": "dark",
+    "importedLists": [],
+    "popupPanelSections": 31,
+    "showIconBadge": false
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-unbreak",
+    "ublock-quick-fixes",
+    "easylist",
+    "adguard-spyware-url",
+    "easyprivacy",
+    "urlhaus-1",
+    "curben-phishing",
+    "plowe-0",
+    "RUS-0",
+    "LegitimateURLShortener"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "chrome-extension-scheme",
+    "moz-extension-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-remote-fonts: * true\nno-csp-reports: * true\nno-scripting: * true\nno-scripting: app.notion.com false\nno-popups: superuser.com true\nno-scripting: superuser.com false\nno-scripting: addons.mozilla.org false\nno-scripting: support.mozilla.org false\nno-scripting: accounts.google.com false\nno-remote-fonts: claude.ai false\nno-scripting: claude.ai false\nno-remote-fonts: calendar.google.com false\nno-scripting: calendar.google.com false\nno-scripting: duck.ai false\nno-scripting: discord.com false\nno-scripting: www.youtube.com false\nno-scripting: ranobelib.me false\nno-scripting: auth.lib.social false\nno-scripting: chatgpt.com false\nno-scripting: wger.de false\nno-scripting: consent.youtube.com false\nno-scripting: www.ozon.ru false\nno-popups: music.youtube.com true\nno-scripting: music.youtube.com false\nno-remote-fonts: platform.claude.com false\nno-scripting: platform.claude.com false",
+  "userFilters": "! 25 окт. 2026 г. https://music.youtube.com\nmusic.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container.style-scope > .ytmusic-popup-container.style-scope\n\n! 25 окт. 2026 г. https://www.youtube.com\nwww.youtube.com##.ytSpecButtonShapeNextMainstagePadding.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextHost\nwww.youtube.com###logo\nwww.youtube.com##.ytd-masthead.style-scope > yt-button-shape > .ytSpecButtonShapeNextMainstagePadding.ytSpecButtonShapeNextMainstageIconSize.ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextIconOnlyDefault.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextText.ytSpecButtonShapeNextHost\n\n! 25 окт. 2026 г. https://claude.ai\nclaude.ai##.bg-neutral-30.pointer-events-auto.duration-150.transition-opacity.select-none.text-muted-as-secondary.sm\\:font-base.font-small.text-center.pe-2\\.5.ps-2.h-control.rounded-lg.gap-1\\.5.items-center.inline-flex.ms-0\\.5\n\n! 25 окт. 2026 г. https://calendar.google.com\ncalendar.google.com##.nn5oJc\n||www.gstatic.com/images/branding/productlogos/calendar_2026_25/v2/png/calendar_2026_25_96dp.png$image\n\n! 25 окт. 2026 г. https://claude.ai\nclaude.ai##.underline-offset-2.hover\\:underline\nclaude.ai##.gap-1.inline-flex > .stacks\\:\\[\\&\\:disabled\\:not\\(\\[aria-busy\\]\\)\\]\\:\\[--cds-shortcut-cap-ink\\:currentColor\\].stacks\\:\\[\\&\\:disabled\\:not\\(\\[aria-busy\\]\\)\\]\\:text-button-disabled.stacks\\:\\[\\&\\:disabled\\:not\\(\\[aria-busy\\]\\)\\]\\:opacity-100.rounded-\\[calc\\(var\\(--cds-radius\\)\\+var\\(--cds-button-radius-add\\,0px\\)\\)\\].px-0.w-control.aspect-square.\\[\\&\\[data-initial-focus\\]\\:focus\\]\\:shadow-focus.focus-visible\\:shadow-focus.aria-pressed\\:text-accent.font-control.font-normal.text-primary.duration-fast.transition-shadow.disabled\\:pointer-events-none.\\[\\&\\:disabled\\:not\\(\\[aria-busy\\]\\)\\]\\:opacity-disabled.text-body.font-sans.h-control.\\[\\&\\[data-initial-focus\\]\\:focus\\]\\:outline-hidden.focus-visible\\:outline-hidden.outline-none.border-0.data-\\[disabled\\]\\:cursor-default.aria-disabled\\:cursor-default.cursor-\\[var\\(--cds-cursor-interactive\\)\\].select-none.whitespace-nowrap.gap-1\\.5.justify-center.items-center.shrink-0.inline-flex.isolate.relative.group\\/btn.cds-reset\n\n! 25 окт. 2026 г. https://duck.ai\nduck.ai##.PNWvh7crXJCoe5lN3yaB\nduck.ai##.GjbA5dGhYiWry_WGYwzw\nduck.ai##.JZjSwOZyEm1OOg1nP3JJ\nduck.ai##.n4vrMGwaSPo1WZT89efg"
+}
