@@ -1,0 +1,11 @@
+\.git
+\.gitignore
+\.stow-local-ignore
+README.*
+LICENSE.*
+
+# Ignore configs
+^/\.config/spacefm
+^/\.config/htop
+^/\.config/librewolf
+^/\.jupyter/
