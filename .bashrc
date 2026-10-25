@@ -74,6 +74,9 @@ fi
 # if [ -z "$QT_STYLE_OVERRIDE" ] ; then
 #     export QT_STYLE_OVERRIDE=kvantum
 # fi
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+    export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+fi
 
 export HISTSIZE=-1                                # Unlimited bash history
 export HISTFILESIZE=-1
