@@ -1,0 +1,27 @@
+-- /home/mia/.config/koreader/settings/battery_stats.lua
+return {
+    ["awake"] = {
+        ["percentage"] = 0,
+        ["time"] = 0,
+    },
+    ["awake_state"] = {
+        ["percentage"] = 100,
+        ["timestamp"] = 4756877400,
+    },
+    ["charging"] = {
+        ["percentage"] = 0,
+        ["time"] = 0,
+    },
+    ["charging_state"] = {
+        ["percentage"] = 100,
+        ["timestamp"] = 4756878973,
+    },
+    ["discharging"] = {
+        ["percentage"] = 0,
+        ["time"] = 0,
+    },
+    ["sleeping"] = {
+        ["percentage"] = 0,
+        ["time"] = 0,
+    },
+}
