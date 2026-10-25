@@ -3,5 +3,7 @@ Description=Auto Commit Grimuar
 Wants=network-online.target
 
 [Service]
+StandardOutput=journal
+StandardError=journal
 Type=oneshot
 ExecStart=/home/mia/Гримуар/Tools/Scripts/auto-commit.sh
